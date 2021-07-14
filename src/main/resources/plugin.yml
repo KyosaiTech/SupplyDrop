@@ -1,0 +1,6 @@
+name: SupplyDrop
+api-version: 1.16
+author: Kuosai
+version: 2.0.2
+description: SupplyDrop || Created on 2021-07-11
+main: com.kuosai.supplydrop.Core

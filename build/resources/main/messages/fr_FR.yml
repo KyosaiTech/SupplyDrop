@@ -1,0 +1,55 @@
+#Translate by Kuosai
+
+# Le message qui sera envoyé au joueur lorsqu'il
+# voudra savoir le nombre de temps qu'il reste avant
+# que le ravitaillement ne tombe.
+messageTimeLeft: "&bIl reste &6%time% &b avant que le prochain ravitaillement ne tombe."
+
+# Le message qui sera envoyé à tous les joueurs
+# lorsqu'un ravitaillement sera apparu.
+supplyDropSpawned: "&bUn ravitaillement est apparu en &6%x%/%y%/%z%."
+
+# Le message qui sera envoyé aux administrateurs
+# lorsque le plugin aura une nouvelle mise à jour.
+supplyDropUpdate: "&cSupplyDrop a une nouvelle version de disponible. Tu peux la téléchargée sur SpigotMC.\n&6%link%"
+
+# Le message qui sera envoyé à tous les joueurs
+# lorsqu'un ravitaillement aura été capturé.
+supplyDropCaptured: "&cLe ravitaillement en %x%/%y%/%z% a été capturé par &6%player%"
+
+# Le message qui sera envoyé aux joueurs
+# qui éxécuterons la command avec une
+# valeur de chance incorrecte.
+weightCanOnlyBeNumber: "&cLe pourcentage de chance doit être un nombre."
+
+# Le message qui sera envoyé au joueur
+# qui éxécutera la commande d'ajout
+# sans avoir d'item en main.
+incorrectItemInHand: "&cVous devez avoir un item dans votre main."
+
+# Le message qui sera envoyé au joueur
+# qui éxécutera la commande d'ajout, mais
+# avec une valeur de chance incorrecte
+# (Le nombre est supérieur à 100 ou inférieur à 0).
+weightAsAnIncorrectValue: "&cTon nombre doit être inférieur à 100 et supérieur à 0 (%number%)"
+
+# Le message qui sera envoyé au joueur
+# qui éxécutera la commande d'ajout et
+# que la commande se sera éxécuté correctement.
+successfullyAddItem: "&aL'item %itemName% a bien été ajouté à l'inventaire des ravitaillements."
+
+# Le message qui sera envoyé au joueur
+# qui éxécutera la commande de retirement et
+# que la commande se sera éxécuté correctement.
+successfullyRemoveItem: "&aL'item %itemName% a bien été retiré à l'inventaire des ravitaillements."
+
+# Le message qui sera envoyé au joueur
+# qui éxécutera la commande de retirement et
+# mais que l'item n'est pas dans l'inventaire
+# des ravitaillments.
+itemNotFound: "&cCet item n'est pas dans l'inventaire des ravitaillements."
+
+# Le message qui sera envoyé au joueur
+# qui éxécutera la commande de reload
+# avec succès.
+commandReloadSuccessfull: "&aLa config a bien été reload."

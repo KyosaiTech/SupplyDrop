@@ -1,0 +1,26 @@
+# Write in the chat of the administrator when the plugin has a new update
+pluginUpdate: true
+
+# Is the supply drop can spawn hover water
+spawnOverWater: false
+
+# Is the supply drop automatically spawn with a timer
+automaticSpawn: true
+
+# Time for the automatic spawning in second
+automaticSpawnTime: 10800
+
+supplyAmountItems: 5
+
+randomLocation:
+  minimumX: -10000
+  minimumZ: -10000
+  maximumX: 10000
+  maximumZ: 10000
+  world: "world"
+
+# Set messages file
+messageFile: "en_US"
+
+# Features :
+# Save items in SQL database

@@ -1,0 +1,53 @@
+#Translate by Kuosai
+
+# The message that will be sent to the player when
+# he wants to know the number of time left before
+# the supply drops.
+messageTimeLeft: "&bThere are &6%time% &b until the next supply drops."
+
+# The message that will be sent to all players
+# when a supply has appeared.
+supplyDropSpawned: "&bA supply appeared in &6%x%/%y%/%z%."
+
+# The message that will be sent to administrator
+# when the plugin have a new update.
+supplyDropUpdate: "&cSupplyDrop have a new version. You can download it on SpigotMC.\n&6%link%"
+
+# The message that will be sent to all players
+# when the supply has been captured.
+supplyDropCaptured: "&cThe supply at %x%/%y%/%z% as been captured by &6%player%"
+
+# The message that will be sent to player
+# who execute the command with incorrect
+# weight value (text).
+weightCanOnlyBeNumber: "&cThe weight need to be a number."
+
+# The message that will be sent to player
+# who execute the command but do not
+# have a valid item in hand.
+incorrectItemInHand: "&cYou must have a item in your hand."
+
+# The message that will be sent to player
+# who execute the command but incorrect
+# weight value (number is over to 100 or less then 0).
+weightAsAnIncorrectValue: "&cYour number need to be less than 100 and over 0 (%number%)"
+
+# The message that will be sent to player
+# who execute the command to add an item
+# and the command worked.
+successfullyAddItem: "&aSuccessfully added %itemName% to supply's inventory"
+
+# The message that will be sent to player
+# who execute the command to remove an item
+# and the command worked.
+successfullyRemoveItem: "&aSuccessfully removed %itemName% to supply's inventory"
+
+# The message that will be sent to player
+# who execute the command to remove an
+# item but the item isn't in the inventory
+# of the supply.
+itemNotFound: "&cThis item isn't in the supply loot for the moment."
+
+# The message that will be sent to player
+# who execute the reload command.
+commandReloadSuccessfull: "&aSuccessfully reload the config."

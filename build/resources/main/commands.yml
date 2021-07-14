@@ -1,0 +1,39 @@
+#Command to force the spawn of the supply drop
+forcespawn:
+  name: "forcespawn" #Command to execute
+  description: "Force the supply drop to spawn" #Description of the command
+  aliases: [fs,forces,fspawn] #Aliases to the command, can be nothing
+  permission: "supplydrop.forcespawn.use" #Permission to execute the command (NULL for nothing)
+  permission-message: "&cYou can't use that." #Message sent when he doesn't have the permission (NULL for nothing)
+
+#Command execute by players to know the time left.
+supplytime:
+  name: "supplytime" #Command to execute
+  description: "Execute this command to know the number of time remaining before the appearance of supply" #Description of the command
+  aliases: [st, supplyt, stime] #Aliases to the command, can be nothing
+  permission: "NULL" #Permission to execute the command (NULL for nothing)
+  permission-message: "NULL" #Message sent when he doesn't have the permission (NULL for nothing)
+
+#Command to remove items from Supply
+guiremoveitem:
+  name: "removeitem" #Command to execute
+  description: "Open a gui where you can remove items from SupplyDrop" #Description of the command
+  aliases: [ri, ritem, removei] #Aliases to the command, can be nothing
+  permission: "supplydrop.removeitem.use" #Permission to execute the command (NULL for nothing)
+  permission-message: "&cYou can't use that." #Message sent when he doesn't have the permission (NULL for nothing)
+
+#Add to supply current item
+additem:
+  name: "additem" #Command to execute
+  description: "Add to supply item in your hand" #Description of the command
+  aliases: [ai, aitem, addi] #Aliases to the command, can be nothing
+  permission: "NULL" #Permission to execute the command (NULL for nothing)
+  permission-message: "NULL" #Message sent when he doesn't have the permission (NULL for nothing)
+
+#Reload the config
+sreload:
+  name: "sreload" #Command to execute
+  description: "Reload SupplyDrop's config" #Description of the command
+  aliases: [] #Aliases to the command, can be nothing
+  permission: "supplydrop.sreload.use" #Permission to execute the command (NULL for nothing)
+  permission-message: "&cYou can't use that." #Message sent when he doesn't have the permission (NULL for nothing)
