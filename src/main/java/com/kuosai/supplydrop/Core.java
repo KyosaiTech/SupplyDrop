@@ -103,7 +103,7 @@ public class Core extends JavaPlugin {
     }
 
     private void checkNewUpdate(){
-        new UpdateChecker(this, 12345).getVersion(version -> {
+        new UpdateChecker(this, 94288).getVersion(version -> {
             if (this.getDescription().getVersion().equalsIgnoreCase(version)) {
                 this.hasNewUpdate = false;
             } else {

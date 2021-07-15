@@ -23,7 +23,7 @@ public class PlayerJoin implements Listener {
     public void onPlayerJoin(PlayerJoinEvent event){
         Player player = event.getPlayer();
         if(player.hasPermission("supplydrop.newversion") && this.core.getConfigValues().isPluginUpdate() && this.core.hasNewUpdate()){
-            player.sendMessage(ChatColor.translateAlternateColorCodes('&', this.core.getConfigValues().getLangConfig().getString("supplyDropUpdate")));
+            player.sendMessage(ChatColor.translateAlternateColorCodes('&', this.core.getConfigValues().getLangConfig().getString("supplyDropUpdate").replace("%link%", "https://www.spigotmc.org/resources/supplydrop.94288/")));
         }
     }
 }
